@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  li, p {
+    font-size: 20px;
+  }
+  
+  button {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid black;
+    color: black;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+  }
+  
+  a:hover {
+      color: red;
+  }
+
+  p::first-letter {
+        color: blue;
+  }
+
+  p::first-line {
+    color:teal;
+}
+
+a:visited {
+  color:goldenrod;
+}
